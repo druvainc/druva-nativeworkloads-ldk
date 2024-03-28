@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "druva_native_ldk_TODO"
+version = "0.0.1"
+authors = [
+  { name="David Gildea", email="david.gildea@druva.com" },
+  { name="Tom Nijs", email="tom.nijs@druva.com" },
+]
+description = "A package containing langchain tools for the Druva Native Workloads API"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/pypa/sampleproject"
+Issues = "https://github.com/pypa/sampleproject/issues"
