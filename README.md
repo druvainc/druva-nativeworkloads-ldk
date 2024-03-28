@@ -17,3 +17,6 @@ This repository contains tools developed for accessing Druva Native Workloads AP
 2. Install the required dependencies using pip:
 
 ```
+cd examples
+pip install -r requirements.txt
+```
